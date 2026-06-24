@@ -7,29 +7,32 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #b6b1b1;
-}
-.logo img{
+    border-bottom: 1px solid #eaeaec;
     height: 80px;
+}
+.logo{
     margin-left: 4%;
 }
-.action{
-    margin-right: 4%;
+.logo img{
+    height: 70px;
 }
 nav{
-    width: 560px;
+    width: 520px;
     display: flex;
     justify-content: space-between;
-    z-index: 1;
 }
 nav a{
     text-decoration: none;
     font-size: 14px;
     letter-spacing: .3px;
     color: #282c3f;
-    border-bottom: none;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 29px 0px;
+    border-bottom: 3px solid #ffff;
+}
+nav a:hover{
+border-bottom: 3px solid #f54e77;
 }
 nav a sup{
     color: #ff3f6c;
@@ -38,10 +41,9 @@ nav a sup{
 .search_bar{
     display: flex;
     height: 40px;
-    min-width: 486px;
-    margin: 20px 20px 20px 40px;
+    min-width: 450px;
+    margin: 0 20px 0 40px;
     align-items: center;
-    justify-content: space-evenly;
    
 }
 .search_iconbox{
@@ -49,7 +51,9 @@ nav a sup{
     height: 40px;
     width: 40px;
     align-items: center;
+    justify-content: center;
     background: #f5f5f6;
+    border-radius: 4px 0 0 4px;
     text-decoration: none;
 }
 .search_icon{
@@ -57,15 +61,12 @@ nav a sup{
     color: #282c3f;
 }
 .search_input{
-    display: inline-block;
-    float: left;
     font-size: 14px;
-    height: 20px;
+    height: 40px;
     line-height: 24px;
     color: #696e79;
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 8px 10px 10px;
-    margin: 0;
     outline: 0;
     border: 1px solid #f5f5f6;
     border-radius: 0 4px 4px 0;
@@ -73,28 +74,35 @@ nav a sup{
     background: #f5f5f6;
     flex-grow: 1;
 }
-@media (min-width: 1500px) {
-    .desktop-query {
-        width: 32%;
-    }
-}
 .action{
-    float: right;
     display: flex;
-    height: 40px;
-    margin: 20px 30px 0 10px;
-    min-width: 195px;
+    min-width: 220px;
     justify-content: space-evenly;
+    align-items: center;
+    margin-right: 30px;
+    height: 80px;
 }
 .action_container{
     display: flex;
     flex-direction: column;
     align-items: center;
     
+    width: 60px;
+}
+.action_container .material-symbols-outlined{
+    font-size: 24px;
 }
 .action_name{
     color: #000;
     font-size: 12px;
     font-weight: 700;
-    text-transform: capitalize;
+    margin-top: 0;
+}
+#profile{
+    border-bottom: 3px solid #ffff;
+    padding: 5px 0px;
+}
+.profile_icon{
+    position: relative;
+    top: 6px;
 }
