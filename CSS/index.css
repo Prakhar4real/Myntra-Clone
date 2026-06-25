@@ -136,3 +136,30 @@ nav a sup{
     width: 100%;
     margin: 0 auto;
 }
+.shop_category{
+    width: 100%;
+    margin-top: 35px;
+}
+.shop_category h2{
+    margin: 0 0 10px 30px;
+    color: #3e4152;
+    letter-spacing: 0.15em;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.category_items{
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.category_items img,
+.category_item2 img{
+    width: 250px;
+    display: block;
+}
+.category_item2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
