@@ -169,11 +169,11 @@ footer{
     padding: 30px 0;
 }
 .footer_container{
-    width: 80%;
+    width: 77%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
+    gap: 60px;
 }
 .footer_column h3{
     font-size: 12px;
@@ -207,4 +207,51 @@ footer{
 .social_links img{
     width: 20px;
     display: block;
+}
+.popular_searches{
+    width: 77%;
+    margin: 30px auto;
+}
+.popular_searches h3{
+    font-size: 12px;
+    color: #282c3f;
+    margin-bottom: 15px;
+}
+.popular_searches p{
+    color: #696b79;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.footer_bottom{
+    width: 77%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.footer_bottom a{
+    text-decoration: none;
+    color: #526cd0;
+    font-weight: 700;
+}
+.promise{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.promise img{
+    width: 48px;
+    margin-right: 12px;
+}
+.promise p{
+    margin: 0;
+    color: #696b79;
+    line-height: 1.35;
+    font-size: 16px;
+}
+.promise strong{
+    color: #282c3f;
 }
