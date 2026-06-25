@@ -9,12 +9,22 @@ header{
     align-items: center;
     border-bottom: 1px solid #eaeaec;
     height: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+body{
+    padding-top: 80px;
 }
 .logo{
     margin-left: 4%;
 }
 .logo img{
-    height: 70px;
+    height: 55px;
 }
 nav{
     width: 520px;
