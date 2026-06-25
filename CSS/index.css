@@ -106,3 +106,33 @@ nav a sup{
     position: relative;
     top: 6px;
 }
+.banner{
+    margin-top: 20px;
+}
+
+.discount_container{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.discount_container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.carousel{
+    width: 100%;
+    margin-top: 20px;
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.banner2{
+    margin-top: 35px;
+}
+.banner2 img{
+    width: 100%;
+    margin: 0 auto;
+}
