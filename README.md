@@ -85,7 +85,7 @@ Myntra-Clone/
 
 ### Footer
 
-![Footer](Assets/Screenshots/footer.png)
+![Footer](Assets/Screenshots/Footer.png)
 
 ---
 
